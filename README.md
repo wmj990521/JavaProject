@@ -1,9 +1,11 @@
 # JavaProject
 Java实验
-#实验一
+
+#实验1
+
 ##一、实验目的
 1、学习使用Java编写类，学习定义类的成员，包括属性、方法、构造器；
-2、学习了解访问权限，访问限制修饰符有private、protected、public；
+2、学习了解访问权限，访问限制修饰符有private、protected、public。
 ##二、实验过程
 1、用类描述计算机中CPU的速度和硬盘的容量。
 2、要求Java应用程序有四个类，名字分别为PC、CPU、HardDisk和Test，其中Test是主类。
