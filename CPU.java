@@ -3,17 +3,20 @@ package cn.syhg.cpu;
 public class CPU {
 	int speed;
 	private float price;
-	//¹¹Ôì·½·¨
-	//ÎŞ²ÎµÄ¹¹Ôì·½·¨
+	//æ„é€ æ–¹æ³•
+	//æ— å‚çš„æ„é€ æ–¹æ³•
 	public CPU() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
-	//ÓĞ²ÎµÄ¹¹Ôì·½·¨
+	//æœ‰å‚çš„æ„é€ æ–¹æ³•
 	public CPU(int speed, float price) {
 		super();
 		this.speed = speed;
 		this.price = price;
+		if(speed<0){
+			System.out.println("error");
+		}
 	}
 	
 	public int getSpeed() {
