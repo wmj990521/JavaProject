@@ -65,6 +65,7 @@ Java实验
  ```
 ## 四、实验结果
   运行成功，输出结果：CPU的速度：2200   硬盘容量：200
+  ![img](http://note.youdao.com/yws/public/resource/253af59d7c3cc80c27cd7edcfc8a506e/xmlnote/WEBRESOURCEed65ad4dbc90574ec7d9e524bb29c401/13)
   
 ## 五、实验感想
   通过这次实验，我学会了类的编写，更加了解了类的成员的使用;学会了构造方法的使用，有参的构造方法和无参的构造方法;更加理解了访问权限，private、protected、public修饰符的作用。
