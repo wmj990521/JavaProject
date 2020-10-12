@@ -26,36 +26,34 @@ Java实验
 ## 三、核心方法
 1. 方法1
 ```
-public int getSpeed() {
+        public int getSpeed() {
 		return speed;
 	}
 	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
+ ```
  2. 方法2
  ```
- public void show(){
+        public void show(){
 		System.out.println("CPU的速度："+cpu.getSpeed());
 		System.out.println("硬盘容量："+HD.getAmount());
 	}
+ ```
  3. 方法3
  ```
- CPU cpu=new CPU();
-		HardDisk disk=new HardDisk();
-		PC pc=new PC();
-		
+        CPU cpu=new CPU();
+        HardDisk disk=new HardDisk();
+	PC pc=new PC();
+        cpu.setSpeed(2200);
+	disk.setAmount(200);
+        pc.setCpu(cpu);
+	pc.setHD(disk);
+	pc.show();
+ ```
  4. 方法4
  ```
- cpu.setSpeed(2200);
-		disk.setAmount(200);
- 5. 方法5
- ```
- pc.setCpu(cpu);
-		pc.setHD(disk);
-		pc.show();
- 6. 方法6
- ```
- public CPU() {
+        public CPU() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
@@ -64,7 +62,9 @@ public int getSpeed() {
 		this.speed = speed;
 		this.price = price;
 	}
+ ```
 ## 四、实验结果
-
+  运行成功，输出结果：CPU的速度：2200   硬盘容量：200
+  
 ## 五、实验感想
   通过这次实验，我学会了类的编写，更加了解了类的成员的使用，学会了构造方法的使用，有参的构造方法和无参的构造方法，更加理解了访问权限，private、protected、public修饰符的作用。
