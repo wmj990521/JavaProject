@@ -23,30 +23,36 @@ Java实验
   （4）尝试把本次实验的多个类放置在不同的包中，体会修饰符private的用法。
 ##三、核心方法
 1、方法1
-```public int getSpeed() {
+```
+public int getSpeed() {
 		return speed;
 	}
 	public void setSpeed(int speed) {
 		this.speed = speed;
 	}
  2、方法2
- ```public void show(){
+ ```
+ public void show(){
 		System.out.println("CPU的速度："+cpu.getSpeed());
 		System.out.println("硬盘容量："+HD.getAmount());
 	}
  3、方法3
- ```CPU cpu=new CPU();
+ ```
+ CPU cpu=new CPU();
 		HardDisk disk=new HardDisk();
 		PC pc=new PC();
  4、方法4
- ```cpu.setSpeed(2200);
+ ```
+ cpu.setSpeed(2200);
 		disk.setAmount(200);
  5、方法5
- ```pc.setCpu(cpu);
+ ```
+ pc.setCpu(cpu);
 		pc.setHD(disk);
 		pc.show();
  6、方法6
- ```public CPU() {
+ ```
+ public CPU() {
 		super();
 		// TODO Auto-generated constructor stub
 	}
