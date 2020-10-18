@@ -7,18 +7,18 @@ Java实验
 1. 学习使用Java编写类，学习定义类的成员，包括属性、方法、构造器；
 2. 学习了解访问权限，访问限制修饰符有private、protected、public。
 ## 二、实验过程
-1. 用类描述计算机中CPU的速度和硬盘的容量。
-2. 要求Java应用程序有四个类，名字分别为PC、CPU、HardDisk和Test，其中Test是主类。
-3. CPU类要求getSpeed（）返回speed的值，要求setSpeed（int m）方法将参数m的值赋值给speed；
+### 用类描述计算机中CPU的速度和硬盘的容量。
+1. 要求Java应用程序有四个类，名字分别为PC、CPU、HardDisk和Test，其中Test是主类。
+2. CPU类要求getSpeed（）返回speed的值，要求setSpeed（int m）方法将参数m的值赋值给speed；
    HardDisk类要求getAmount（）返回amount的值，要求setAmount（int m）方法将参数m的值赋值给amount；
    PC类要求setCPU（CPU c）方法将参数c的值赋值给cpu,要求setHardDisk（HardDisk h）方法将参数h的值赋值给HD,要求show()方法能显示cpu的速度和硬盘的容量。
-4. 主类Test的要求：
+3. 主类Test的要求：
   （1）main方法中创建一个CPU对象cpu,cpu将自己的speed设置为2200；
   （2）main方法中创建一个HardDisk对象disk,disk将自己的amount设置为200；
   （3）main方法中创建一个PC对象pc;
   （4）pc调用setCPU（CPU c）方法，调用时实参是cpu;
   （5）pc调用show（）方法。
-5. 附加要求：
+4. 附加要求：
   （1）类中定义不少于两个构造方法；
   （2）每个类定义不少于2个属性，且属性的类型应该多样化；
   （3）根据课堂中关于访问权限的内容，尝试定义属性的修饰符多样化，类中定义方法操作属性，避免直接通过“类对象.属性”的形式访问属性值；且定义的方法内应该有符合常理的逻辑判断；
