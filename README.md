@@ -34,33 +34,33 @@ public void setSpeed(int speed) {
  ```
  2. 方法2
  ```
-        public void show(){
-		System.out.println("CPU的速度："+cpu.getSpeed());
-		System.out.println("硬盘容量："+HD.getAmount());
-	}
+ public void show(){
+   System.out.println("CPU的速度："+cpu.getSpeed());
+   System.out.println("硬盘容量："+HD.getAmount());
+}
  ```
  3. 方法3
  ```
-        CPU cpu=new CPU();
-        HardDisk disk=new HardDisk();
-	PC pc=new PC();
-        cpu.setSpeed(2200);
-	disk.setAmount(200);
-        pc.setCpu(cpu);
-	pc.setHD(disk);
-	pc.show();
+ CPU cpu=new CPU();
+ HardDisk disk=new HardDisk();
+ PC pc=new PC();
+ cpu.setSpeed(2200);
+ disk.setAmount(200);
+ pc.setCpu(cpu);
+ pc.setHD(disk);
+ pc.show();
  ```
  4. 方法4
  ```
-        public CPU() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-	public CPU(int speed, float price) {
-		super();
-		this.speed = speed;
-		this.price = price;
-	}
+ public CPU() {
+   super();
+   // TODO Auto-generated constructor stub
+ }
+ public CPU(int speed, float price) {
+   super();
+   this.speed = speed;
+   this.price = price;
+ }
  ```
 ## 四、实验结果
   运行成功，输出结果：CPU的速度：2200   硬盘容量：200
